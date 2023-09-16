@@ -15,7 +15,7 @@ body{
   background-color: #000000;
   padding: 24px;
 }
-.sidebar .logo img {
+.sidebar .logo img{
 width: 130px;
 }
 .sidebar .navigation ul {
@@ -47,7 +47,7 @@ font-size: 13px;
 }
 .sidebar .navigation ul li a:hover .fa,
 .sidebar .navigation ul li a:active .fa,
-.sidebar .navigation ul li a:focus .fa {
+.sidebar .navigation ul li a:focus .fa{
   color: #ffffff;
 }
 .sidebar .policies ul {
