@@ -24,6 +24,7 @@ body{
 }
 .sidebar .navigation ul li {
   padding: 10px 0px;
+
 }
 .sidebar .navigation ul li a {
 color: #b3b3b3;
@@ -44,6 +45,7 @@ font-size: 13px;
 .sidebar .navigation ul li .fa {
   font-size: 20px;
   margin-right: 10px;
+
 }
 .sidebar .navigation ul li a:hover .fa,
 .sidebar .navigation ul li a:active .fa,
@@ -53,6 +55,7 @@ font-size: 13px;
 .sidebar .policies ul {
   list-style: none;
   margin-top: 50px;
+  
 }
 .sidebar .policies ul li {
   padding-bottom: 5px;
