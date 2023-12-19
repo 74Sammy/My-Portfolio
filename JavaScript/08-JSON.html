@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>objects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./spotify.css">
+</head>
+<body>
+
+  <script>
+    /*
+    const product = {
+      name: 'stocks',
+      price: 1090
+    }
+    console.log(product)
+    console.log(product.name)
+    console.log(product.price)
+
+    product.name = 'cotton socks';
+    console.log(product)
+
+    product.newProperty = true;
+    console.log(product);
+
+    delete product.newProperty
+    console.log(product);
+    */
+
+    const product2 = {
+      name: 'shirt',
+      ['delivery-time']: '1 day',
+      rating: {
+        stars: 4.5,
+        count: 78
+      },
+      fun: function function1(){
+        console.log('function inside object');
+      }
+    }
+    console.log(product2);
+    console.log(product2.name);
+    console.log(product2['name']);
+    console.log(product2['delivery-time']);
+
+    console.log(product2.rating)
+    console.log(product2.rating.count)
+
+    product2.fun();
+/*
+    NOTE that square-bracket notation is also use, especially in property naming that is connected with a dash-, as seen above.
+    Square-bracket notation allows you to use variable and even perform calculations within the bracket, dot notation don't.  
+    2. In the last example above the property "fun" was turn a function, hence we call the function
+    */ 
+
+
+    console.log(JSON.stringify(product2));
+
+    /* the above convert Javascript into JASON, and the below convert JASON back to Javascript.
+    */
+
+    const jsonString = JSON.stringify(product2);
+    console.log(JSON.parse(jsonString));
+
+    
+
+/*
+JSON, And Local storage Built-in objects
+
+
+*/
+    
+
+
+  </script>
+
+</body>
+</html>

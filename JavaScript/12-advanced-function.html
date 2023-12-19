@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advance Function</title>
+</head>
+<body>
+  <button class="js-button">Click</button>
+  <script>
+    const buttonElement = document.querySelector('.js-button');
+
+    const eventListener = () => {
+      console.log('click');
+    };
+    buttonElement.addEventListener('click',() => {
+      console.log('click')
+    });
+
+    buttonElement.addEventListener('click',() => {
+      console.log('click2');
+    })
+    /*
+    function greeting() {
+      console.log('hello');
+    }
+    greeting();
+
+    function display(param) {
+      console.log(param);
+    }
+    display(2);
+
+    /*
+    Asynchronous Code doesn't wait for a line to finish b4 going 
+    to the next line, i.e the function 'setTimeout' below set the time the programmer 
+    wants the code to run.
+    Synchronous code is what we have use to, and we will always use,
+    the computer wait for the one line to finish b4 going to the next line
+    */
+
+    /*
+    setTimeout(function() {
+      console.log('timeout');
+      console.log('timeout 2')
+    }, 3000);
+
+    console.log('next line');
+    */
+
+    /* 
+    the function "setInterval" make you run/repeat a particular code continuously at your set interval
+    
+    /* 
+    setInterval(function()  {
+      console.log('interval')
+    }, 3000);
+    */
+     
+    [
+      'make dinner',
+      'wash dishes',
+      'watch messages'
+    ].forEach(function(value) {
+    console.log(value);
+    });
+
+  </script>
+</body>
+</html>

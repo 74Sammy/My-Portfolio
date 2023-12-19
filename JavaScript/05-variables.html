@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javscript-lesson5</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet"
+  />
+</head>
+<body>
+  Cart Quantity
+  <div style="margin-top: 20px;"><button onclick="
+  console.log(`Cart Quantity: ${cartQuantity}`);">Show Quantity</button> 
+  
+  <button onclick="
+  cartQuantity ++
+  console.log(`Cart Quantity: ${cartQuantity}`);">Add to Cart</button>
+   
+   <button onclick= "
+   cartQuantity = cartQuantity + 2
+   console.log(`Cart Quantity: ${cartQuantity}`);">+2</button> 
+
+   <button onclick="
+   cartQuantity = cartQuantity + 3
+   console.log(`Cart Quantity: ${cartQuantity}`);">+3</button>
+
+    <button onclick="
+    cartQuantity = 0
+    console.log('Cart was reset')
+    console.log(`Cart Quantity: ${cartQuantity}`);">Reset Cart</button></div>
+
+  <script>
+let variable1 = 4;
+console.log(variable1)
+
+let calculation = 2 + 3;
+let result = variable1 + calculation;
+console.log(result)
+/*the answer is 9*/
+
+variable1= variable1 + result
+console.log(variable1)
+/* the ans is 13.
+Note that the above script end here*/
+
+let cartQuantity = 0;
+  </script>
+</body>
+</html>
